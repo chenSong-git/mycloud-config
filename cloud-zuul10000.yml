@@ -4,8 +4,7 @@ zuul:
   prefix: /cloud
   ignored-services: "*"
   routes:
-    mydept.serviceId: CLOUD-PRODUCER10086
-    mydept.path: /producer/**
-  routes:
-    mydept.serviceId: CLOUD-CONSUMER10010
-    mydept.path: /consumer/**
+    producer.serviceId: CLOUD-PRODUCER10086
+    producer.path: /producer/**
+    consumer.serviceId: CLOUD-CONSUMER10010
+    consumer.path: /consumer/**
