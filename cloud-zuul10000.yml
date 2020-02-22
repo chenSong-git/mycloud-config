@@ -6,3 +6,5 @@ zuul:
   routes:
     mydept.serviceId: CLOUD-PRODUCER10086
     mydept.path: /producer/**
+    mydept.serviceId: CLOUD-CONSUMER10010
+    mydept.path: /consumer/**
