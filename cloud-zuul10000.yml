@@ -1,0 +1,8 @@
+server:
+  port: 10000
+zuul:
+  prefix: /cloud
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: CLOUD-PRODUCER10086
+    mydept.path: /producer/**
